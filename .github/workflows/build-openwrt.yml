@@ -79,7 +79,7 @@ jobs:
       run: |
           cd openwrt
           make -j1 V=s
-          
+      
     - name: Assemble artifact
       run: |
           rm -rf ./artifact/
